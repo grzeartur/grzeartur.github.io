@@ -1,0 +1,36 @@
+(function(w, d){
+var getDomElem = function(id)
+{ return d.getElementById(id).contentDocument || d.frames[id].document; }
+
+var i = d.createElement('iframe');
+i.id = 'sas_4943813_iframe';
+i.scrolling = 'no';
+i.frameBorder = 0;
+i.width = 750; 
+i.height = 200; 
+i.style.margin = 0;
+i.style.padding = 0;
+i.style.width = '750px';
+i.style.height = '200px';
+if (typeof(sas_ajax) != 'undefined' && sas_ajax) {
+    sas_appendToContainer(36936, i); // sas_formatId 
+} 
+else
+{ 
+    d.write('<div id="sas_rtb_4943813"></div>');
+    var sas_rtb_div = d.getElementById("sas_rtb_4943813");    
+    if((typeof (sas_rtb_div) != 'undefined') && (sas_rtb_div != null))
+    {
+        sas_rtb_div.appendChild(i);
+    }
+}
+i.doc = getDomElem(i.id);
+i.doc.write(
+'<!doctype html><html><head><title></title></head><body style="margin:0;padding:0">'+
+'<scr'+'ipt type="text/javascript">var inDapIF=inDapMgrIf=true;</scr'+'ipt>'+
+"\x3Cimg src=\'http://www3.smartadserver.com:80/h/aip?visit=v&amp;pubid=10&amp;statid=6&amp;ckid=7997473262103208970&amp;tmstp=%5btimestamp%5d&amp;usrtgt=&amp;tgt=%24dt%3d1t%3b%3b%24hc&amp;systgt=%24qc%3d1308612723%3b%24ql%3dmedium%3b%24qpc%3d00-025%3b%24qpp%3d0%3b%24qt%3d220_737_17663t%3b%24dma%3d0%3b%24b%3d12490%3b%24o%3d11061%3b%24sw%3d1600%3b%24sh%3d1024&amp;capp=0&amp;mcrdbt=0&amp;insid=4943813&amp;imgid=0&amp;pgid=610433&amp;fmtid=36936&amp;loguid=442293899031844732&amp;logdate=1475686941470&amp;sig=ZiHILDGPRdHiEvQ0fxrG8qY1vUwo5g5HfI047lv%2b%2bIw%3d&amp;rtb=1&amp;rtbnid=1652&amp;rtbbid=442293899031844734&amp;rtbh=cd964180744121965dce565b2cdbeaeb2fd978e9&amp;rtblt=636112837414699320&amp;rtbet=0\' border=\'0\' width=\'0\' height=\'0\' style=\'display:none\'/>\x3Ciframe src=\'https://ec-ns.sascdn.com:443/diff/rtb/handler/st.min.html?%7b%22bid%22%3a%22442293899031844734%22%2c%22adomain%22%3a%22ceneo.pl%22%2c%22page%22%3a%22610433%22%2c%22format%22%3a%2236936%22%2c%22crid%22%3a%223892501%22%2c%22dsp%22%3a%2279%22%2c%22buyer%22%3a%224867%22%2c%22cid%22%3a%2244981%22%2c%22adid%22%3a%2210392%22%2c%22hash%22%3a%228700781845072750792%22%7d\' width=\'0\' scrolling=\'no\' height=\'0\' frameborder=\'0\' style=\'display: none;\'>\x3C/iframe>\x3Ciframe id=\'a056db16\' name=\'a056db16\' src=\'http://cas.nl.eu.criteo.com/delivery/r/afr.php?did=57f5321c1140e4f93c66e441994ac290&z=PBBi2dkoi8Qry5TvbtzDe-ygkB_Fw9kMtnMmZw&u=%7Cl2s4tSF%2F%2BZyZm557Xt%2BP%2FQYJ0ZwVhbB5qSm8uGNuruw%3D%7C&c1=64huUomFIxtW-gyWCMuvLNH0wJ4FvNaY6j3JVYAjEFMOu5ujrz15SbDnoBvKHC3fJNJM0DThbvi_ejHvrc3ohP_f6THF0fNqoEoMCq22jOmCrhApMBKlY_A6k7ZDwj-SiU-Jizabv6eU8sgxeUYvIIEx4r2e06MxQswG6tn7U1OchrVDLp4VX7o_56u2hbDL5LkQ6_KXSnhQmdFh6Vc9s1rOXFR89riHWlUSO_dtSHnG1cIa3o2zgq_hqlHR2VVPQnHwg7DdvAdYVqWLZCCNPbq01JnBU0H7\' framespacing=\'0\' frameborder=\'no\' scrolling=\'no\' width=\'750\' height=\'200\'>\x3C/iframe>" + 
+'</body></html>'
+);
+
+if (navigator.userAgent.indexOf('MSIE') == -1 && navigator.userAgent.indexOf('Opera') == -1) i.doc.close();
+})(window, document);

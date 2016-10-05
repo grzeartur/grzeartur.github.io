@@ -1,0 +1,160 @@
+
+.button {
+	font-family:Tahoma,Arial,Verdana,Sans-Serif;
+	font-size:10px;
+	color:#000;
+	background-color:#9DFF9D;
+	height:19px;
+	padding:0px 2px 0px 2px;
+	border:1px #dddddd solid;
+	margin-top:2px;
+}
+	
+.textbox {
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#000;background-color:#9DFF9D;
+	border:1px #dddddd solid;
+}
+
+body                 {FONT-FAMILY: Verdana, sans-serif; FONT-SIZE: 10px; }
+
+.tbl-border {
+	background-color:#393129;
+}
+
+.tbl {
+	font-size:11px;
+	padding:3px 4px 3px 4px;
+}
+
+.tbl1 {
+	font-size:11px;
+	color:#ffffff;background-color:#004800;
+	padding:4px;
+}
+
+.tbl2 {
+	font-size:11px;
+	color:#ffffff;background-color:#003400;
+	padding:4px;
+}
+	
+
+.forum-caption {
+	font-size:10px;font-weight:bold;
+	color:#ffffff;background-color:#001A00;
+	height:20px;
+	padding:0px 4px 2px 4px;
+}
+
+.quote {
+	color:#ffffff;background-color:#002A00;
+	padding:2px;
+	margin:0px 20px 0px 20px;
+	border:1px #aaa solid;
+}
+	
+.poll {
+	height:12px;
+	border:1px #000 solid;
+}
+
+.shoutboxname {
+	color:#002266;
+}
+
+
+.shoutbox {
+	color:#C5FFC5;
+}
+
+.shoutboxdate {
+	font-size:9px;
+	color:#8DFF8D;
+	text-align:right;
+}
+
+.small {
+	font-size:10px;font-weight:normal;
+}
+
+.small2 {
+	font-size:10px;font-weight:normal;
+	color:#666;
+}
+
+.sidesmall {
+	font-size:10px;font-weight:normal;
+	color:#000;
+}
+
+a {
+	color:#59FF59;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#017101;
+	text-decoration:underline;
+}
+
+a.slink {
+	color:#59FF59;
+	text-decoration:none;
+}
+
+a:hover.slink {
+	color:#017101;
+	text-decoration:underline;
+}
+
+a.white {
+	color:#59FF59;
+	text-decoration:none;
+}
+
+a:hover.white {
+	color:#017101;
+	text-decoration:underline;
+}
+
+a.foot {
+	color:#59FF59;
+	text-decoration:none;
+}
+
+a:hover.foot {
+	color:#017101;
+	text-decoration:none;
+}
+
+body {
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:11px;
+	margin:10px;
+}
+
+form {
+	margin:0px 0px 0px 0px;
+}
+
+td {
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:11px;
+}
+
+pre {
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+}
+
+.maina { 
+  font-family: Verdana; 
+  font-size: 11px; 
+  padding-top: 7px; 
+  padding-right: 3px; 
+  padding-bottom: 0px; 
+  padding-left: 3px; 
+  color: #ffffff;
+}
